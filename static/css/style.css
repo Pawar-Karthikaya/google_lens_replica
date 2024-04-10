@@ -1,0 +1,82 @@
+/* styles.css */
+body {
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif,bold;
+}
+h1{
+    text-align: center; 
+    font-size: 50px;
+    color: #4672eb;
+    font-family:'Lobster', cursive;
+}
+h3 {
+    color: #2196F3;
+}
+.container {
+
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(231, 227, 227);
+    border-radius: 5px;
+}
+
+.content{
+    text-align: center; 
+}
+/* styles.css */
+form {
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+/* You can also target specific elements within the form */
+form label {
+    font-size: 18px; /* Adjust the font size for labels */
+}
+
+
+
+
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.imsubmit {
+    width: 100%;
+    padding: 10px;
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form.example input[type=text] {
+    flex: 1; /* Take up remaining space */
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
